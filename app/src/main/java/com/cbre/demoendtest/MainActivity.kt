@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-        
+
 
         AppCenter.start(application, "da004f5e-3e74-47b5-979b-b0248b6362e1",
                 Analytics::class.java, Crashes::class.java)
